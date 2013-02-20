@@ -8,7 +8,7 @@
 
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
-files=".emacs .emacs.d .vim .vimrc .Xresources .Xdefaults .xinitrc .zshrc"    # list of files/folders to symlink in homedir
+files=".emacs .emacs.d .vim .vimrc .Xresources .Xdefaults .xinitrc .zshrc .bashrc .bash_profile"    # list of files/folders to symlink in homedir
 
 ##########
 
