@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/usr/include/mysql'
+let g:netrw_dirhist_2='/home/tweek/public_html/wordpress'
+let g:netrw_dirhist_3='/home/tweek/public_html'
+let g:netrw_dirhist_4='/home/tweek/.config/smplayer'
+let g:netrw_dirhist_5='/home/tweek/.ssh'
+let g:netrw_dirhist_6='/home/tweek/public_html/beech-hollow/wp-content/themes'
+let g:netrw_dirhist_7='/home/tweek/public_html/beech-hollow/wp-content/themes/beechhollowfarms'
