@@ -17,5 +17,7 @@
 (require 'color-theme-settings)
 
 
+;;(color-theme-almost-monokai)
+(require 'color-theme-solarized)
+(color-theme-solarized-light)
 
-(color-theme-almost-monokai)

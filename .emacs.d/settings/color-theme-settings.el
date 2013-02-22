@@ -38,4 +38,6 @@
 ;  (frame-background-mode . dark)
 ;)))
 
+(add-to-list 'load-path "~/.emacs.d/emacs-color-theme-solarized")
+
 (provide 'color-theme-settings)
