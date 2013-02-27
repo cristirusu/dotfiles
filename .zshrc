@@ -1,7 +1,10 @@
 
 PATH=$PATH:$HOME/.rvm/bin:$HOME/dev/wp-cli/bin # Add RVM to PATH for scripting
-PS1=$'%F{def}%(?..%B%K{red}[%?]%K{def}%b )%(1j.%b%K{yel}%F{bla}%jJ%F{def}%K{def} .)%F{white}%B%*%b %F{m}%m:%F{white}%~ %(!.#.>) %F{def}'
 
+autoload -U colors && colors
+# PS1=$'%F{def}%(?..%B%K{red}[%?]%K{def}%b )%(1j.%b%K{yel}%F{bla}%jJ%F{def}%K{def} .)%F{white}%B%*%b %F{m}%m:%F{white}%~ %(!.#.>) %F{def}'
+PROMPT='%n@%m:%2. %(!.#.>)'
+RPROMPT='[%*]'
 [[ -s "~/.rvm/scripts/rvm" ]] && source "~/.rvm/scripts/rvm"
 
 # Enable color support of ls

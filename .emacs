@@ -9,6 +9,11 @@
 ; PHP
 (require 'web-dev-settings)
 
+;(setq load-path (cons "/path/to/gtags.el" load-path))
+;(autoload 'gtags-mode "gtags" "" t)
+
+;(add-to-list 'load-path "~/.emacs.d/speedbar")
+
 ; aesthetics
 (require 'ui-settings)
 (require 'window-settings)

@@ -24,3 +24,13 @@ nno <F2> :set hls!<bar>set hls?<CR>
 nno <F3> :syn clear <CR>
 nno <F4> :set nu!<bar>set nu?<CR>
 nmap <F8> :TagbarToggle<CR>
+
+syntax enable
+
+" let g:solarized_termcolors=256
+if has('gui_running')
+	set background=light
+else
+	set background=dark
+endif
+colorscheme solarized
