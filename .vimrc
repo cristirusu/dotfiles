@@ -9,7 +9,7 @@ set showmatch
 
 set ruler
 
-syntax on
+syntax enable
 filetype on
 filetype plugin on
 
@@ -25,7 +25,11 @@ nno <F3> :syn clear <CR>
 nno <F4> :set nu!<bar>set nu?<CR>
 nmap <F8> :TagbarToggle<CR>
 
-syntax enable
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
+
 
 " let g:solarized_termcolors=256
 if has('gui_running')
