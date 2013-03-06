@@ -8,6 +8,7 @@ set noexpandtab
 set showmatch
 
 set ruler
+set number
 
 syntax enable
 filetype on
