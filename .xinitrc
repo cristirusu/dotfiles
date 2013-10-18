@@ -1,5 +1,6 @@
 #Disable touchpad when typing
 syndaemon -i 2 &
+/usr/bin/VBoxClient-all
 #exec ck-launch-session openbox-session
 DEFAULT_SESSION=openbox-session
 

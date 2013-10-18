@@ -10,6 +10,9 @@ set showmatch
 set ruler
 set number
 
+scriptencoding utf-8
+set encoding=utf-8
+
 syntax enable
 filetype on
 filetype plugin on
@@ -39,3 +42,5 @@ else
 	set background=dark
 endif
 colorscheme solarized
+
+set guifont=Anka/Coder\ 11
